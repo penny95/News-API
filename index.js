@@ -1,4 +1,4 @@
-const Request= require("request");
+const Request = require("request");
 
 console.log("Please select The News Source:\n");
 console.log("1. The New York Times\n2. CNN\n3. USA Today\n4. NBC News");
@@ -48,3 +48,5 @@ process.stdin.once('data', (newsSource)=>{
     }
     console.log(newsApi());
     })
+
+
